@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'Constantia';
+	src: url('Constantia.eot');
+	src: url('Constantia.eot?#iefix') format('embedded-opentype'),
+		 url('Constantia.woff') format('woff'),
+		 url('Constantia.ttf') format('truetype'),
+		 url('Constantia.svg#Constantiaregular') format('svg');
+  	font-weight: normal;
+  	font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+body{
+	font-family:Constantia;
+	margin:0;
+}
+#ram{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+#Bakgrundsbild{
+	width:100%;
+	height:100%;
+	background-image:url(conor-mcgregor-bar-fight.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+}
+
+#Record{
+	width:100%;
+	height:100%;
+	background-image:url(conor-mcgregor-ufc-diaz-dana-white.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+#Recordfacts{
+	width:100%;
+	height:100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+}
+
+#Pictures{
+	width:100%;
+	height:100%;
+	background-image:url(Conor-McGregor-Record-Page.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+#Pictures2{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+#About{
+	width:100%;
+	height:100%;
+	background-image:url(Conor-McGregor-Pictures-1.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+#About2{
+	width:100%;
+	height:100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+}
+.bilder{
+	float:left;
+	margin-left:15px;
+	margin-top:20px;
+	height:300px;
+	width:300px;	
+}
+#Video{
+	width:100%;
+	height:100%;
+	background-image:url(p03bzkqr.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+#Video2{
+	width:100%;
+	height:100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+}
+
+.inner {
+	max-width: 100%;
+	margin: 0;
+	padding: 0px 20px;
+	position: relative;
+}
+#storbox{
+	width:100%;
+	height:100%;}
+.logo {
+	text-decoration:none;
+	color: #FFF;
+	font-weight: 800;
+	font-size: 25px;
+	line-height: 75px;
+}
+
+a.logo:hover {
+	color:#F60;
+}
+
+nav > ul {
+  	float: right;
+	list-style:none;
+}
+  
+nav > ul > li {
+	text-align: center;
+	line-height: 45px;
+	margin-left: 40px;
+	font-size:20px;
+}
+
+nav > ul li ul li {
+	width: 100%;
+  	text-align: left;
+}
+
+nav ul li:hover {
+	cursor: pointer;
+	position: relative;
+}
+nav ul li:hover > ul {
+  	display: block;
+}
+nav ul li:hover > a {
+	color:#F60;
+}
+nav > ul > li > a {
+	cursor: pointer;
+	display: block;
+	outline: none;
+	width: 100%;
+	text-decoration: none;
+}
+
+nav > ul > li {
+  	float: left;
+}
+nav a {
+	  color: white;
+}
+nav > ul li ul {
+  	display:none;
+  	position: absolute;
+  	left: 0;
+	top: 100%;
+  	width: 100%;
+	z-index: 2000;
+}
+nav > ul li ul li > a {
+	text-decoration:none;
+}
+
+[type="checkbox"], label {
+	display: none;
+}
+
+.orange{
+	color:#F60;
+	
+}
+.stortext{
+	font-size:60px;
+}
+.center{
+	text-align:center;
+}
+
+.litentext{
+	font-size:20px;
+}
+
+.medeltext{
+	font-size:30px;
+}
+
+p, h3 { 
+	text-align:center;
+}
+p.padding{
+	padding-left:200px;
+	padding-right:200px;
+}
+
+h3 {
+	margin:0;
+	padding:0;
+}
+
+.textleft{
+	text-align:left;
+}
+
+.margin{
+	margin-left:100px;
+	
+}
+.float{
+	float:left;
+}
+table{
+	width:100%;
+}
+table, td, th {
+	border: 0px;
+	padding:10px;
+	text-align:center;
+		
+}
+iframe{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:20px;
+	width:1280px;
+	height:720px;
+	border:0;
+}
+
+
+@media screen and (max-width: 980px) {
+
+iframe{
+	display:block;
+	margin-top:20px;
+	width:100%;
+	height:100%;
+}
+
+#Record{
+	background-image:url(conor-mcgregor-ufc-diaz-dana-white.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+}
+
+#Bakgrundsbild{
+	background-image:url(imageedit_1_4739592563.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+  	
+}
+
+#Video{
+	background-image:url(p03bzkqr.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+}
+
+#Pictures{
+	background-image:url(Conor-McGregor-Record-Page.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+}
+
+table, td, th {
+	padding:0px;
+	text-align:center;
+		
+}
+
+#About{
+	background-image:url(Conor-McGregor-Pictures-1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+	nav ul {
+		  display: none;
+	}
+
+	label {
+  		display: block;
+  		background: #222;
+		  width: 40px;
+  		height: 40px;
+  		cursor: pointer;
+		  position: absolute;
+		  right: 20px;
+  		top: 0px;
+	}
+  
+label:after{
+  content:'';
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #777;
+  margin: 7px 5px;
+  box-shadow: 0px 10px 0px #777, 0px 20px 0px #777
+}
+
+	[type="checkbox"]:checked ~ ul {
+  		display: block;
+  		z-index: 9999;
+  		position: absolute;
+		  right: 20px;
+		  left: 20px;
+	}
+
+	nav a {
+		  color: #777;
+	}
+
+	nav ul li {
+		  display: block;
+  		float: none;
+  		width: 100%;
+  		text-align: left;
+  		background: #222;
+		  text-indent: 20px;
+	}
+
+	nav > ul > li {
+  		margin-left: 0px;
+	}
+
+	nav > ul li ul li {
+  		display: block;
+		  float: none;
+	}
+  
+	nav > ul li ul {
+		  display: block;
+  		position: relative;
+  		width: 100%;
+		  z-index: 9999;
+		  float: none;
+	}
+
+}
+@media screen and (max-width: 650px) {
+
+p.padding{
+	padding-left:0px;
+	padding-right:0px;
+}
+.bilder{
+	width:80%;
+	margin-left:10%;
+	
+		
+}
+}
+
+@media screen and (max-width: 480px) {
+
+
+}
+
